@@ -1,0 +1,79 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-style: georgia;
+    margin: 0;
+    background-color: goldenrod;
+}
+
+header{
+    background-color: chocolate;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.three-col-layout-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.shop{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.inventory{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+article{
+    text-align: center;
+}
+
+.Cookie{
+    display: block;
+    margin-top: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    animation: rotation 25s infinite linear;
+}
+
+@keyframes rotation{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+footer{
+    background-color: chocolate;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 10px;
+}
+
+nav{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: georgia;
+    padding-top: 15px;
+}
+
+a:hover{
+    text-decoration: underline cornflowerblue;
+}
