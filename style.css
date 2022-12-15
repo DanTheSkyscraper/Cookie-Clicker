@@ -77,3 +77,15 @@ a{
 a:hover{
     text-decoration: underline cornflowerblue;
 }
+
+.GameOverText{
+    display: block;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+
+.LastScore{
+    font-size: 20px;
+}
