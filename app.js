@@ -53,7 +53,7 @@ let BakeryCost = 10000;
 let FactoryCost = 100000;
 
 // This is the cost of the Game Over button. Once the player has earned this much money, the game will end once this button is pressed.
-let GameOverCost = 10; //10000000
+let GameOverCost = 10000000; //10000000
 
 function cookieClick(){
     money += bakingPower;
