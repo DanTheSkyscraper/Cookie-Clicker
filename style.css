@@ -86,6 +86,13 @@ a:hover{
     font-size: 40px;
 }
 
-.LastScore{
-    font-size: 20px;
+button:hover
+{
+    background-color: rgb(156, 156, 156);
+}
+
+button:active
+{
+    background-color: black;
+    color: white;
 }
